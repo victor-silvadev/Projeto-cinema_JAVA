@@ -5,47 +5,189 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac851d5-c743-4d64-960d-5c0c60c0892c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/exception/a.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/file/a.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/model/a.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/service/a.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/thread/a.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Exception" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "victor-silvadev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;victor-silvadev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/victor-silvadev/Projeto-cinema_JAVA",
-    "accountId": "3c2360dd-f8ad-4037-b278-ace292ce3832"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/victor-silvadev/Projeto-cinema_JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;3c2360dd-f8ad-4037-b278-ace292ce3832&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3HSwF3sLvbJZtI9DiY6qFLOKp3l" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.com.cinema.test.teste01.executor": "Run",
+    "Application.teste01.executor": "Run",
+    "JUnit.AdminServicesTest.executor": "Run",
+    "JUnit.AdminServicesTest.validation_about_password_from_Admin_is_Correct.executor": "Run",
+    "JUnit.AdminServicesTest.validation_about_password_from_input_is_Null.executor": "Run",
+    "JUnit.CustomerPathTest.create_customerDTO_In_Path_Select.executor": "Run",
+    "JUnit.CustomerServicesTest.create_Dont_Validation_for_Input_is_Null.executor": "Run",
+    "JUnit.CustomerServicesTest.create_Is_New_Customer.executor": "Run",
+    "JUnit.CustomerServicesTest.executor": "Run",
+    "JUnit.CustomerServicesTest.verification_about_cash_Ofthe_Customer_With_the_Full_Payment_amount.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/conta/Documents/estudos/JAVA/Projeto-Cinema_JAVA/cinema_data/salas/sala_03",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\conta\Documents\estudos\JAVA\Projeto-Cinema_JAVA\cinema_data\salas\sala_03" />
+      <recent name="C:\Users\conta\Documents\estudos\JAVA\Projeto-Cinema_JAVA\cinema_data\salas\sala_02" />
+      <recent name="C:\Users\conta\Documents\estudos\JAVA\Projeto-Cinema_JAVA\src\main\java\com\cinema\thread" />
+      <recent name="C:\Users\conta\Documents\estudos\JAVA\Projeto-Cinema_JAVA\src\main\java\com\cinema\service" />
+      <recent name="C:\Users\conta\Documents\estudos\JAVA\Projeto-Cinema_JAVA\src\main\java\com\cinema\model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cinema.file" />
+      <recent name="com.cinema.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomerPathTest.create_customerDTO_In_Path_Select">
+    <configuration name="CustomerPathTest.create_customerDTO_In_Path_Select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto-Cinema_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cinema.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cinema.file" />
+      <option name="MAIN_CLASS_NAME" value="com.cinema.file.CustomerPathTest" />
+      <option name="METHOD_NAME" value="create_customerDTO_In_Path_Select" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto-Cinema_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cinema.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cinema.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cinema.service.CustomerServicesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServicesTest.create_Dont_Validation_for_Input_is_Null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto-Cinema_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cinema.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cinema.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cinema.service.CustomerServicesTest" />
+      <option name="METHOD_NAME" value="create_Dont_Validation_for_Input_is_Null" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServicesTest.create_Is_New_Customer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto-Cinema_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cinema.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cinema.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cinema.service.CustomerServicesTest" />
+      <option name="METHOD_NAME" value="create_Is_New_Customer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServicesTest.verification_about_cash_Ofthe_Customer_With_the_Full_Payment_amount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto-Cinema_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cinema.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cinema.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cinema.service.CustomerServicesTest" />
+      <option name="METHOD_NAME" value="verification_about_cash_Ofthe_Customer_With_the_Full_Payment_amount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerPathTest.create_customerDTO_In_Path_Select" />
+        <item itemvalue="JUnit.CustomerServicesTest.verification_about_cash_Ofthe_Customer_With_the_Full_Payment_amount" />
+        <item itemvalue="JUnit.CustomerServicesTest.create_Dont_Validation_for_Input_is_Null" />
+        <item itemvalue="JUnit.CustomerServicesTest" />
+        <item itemvalue="JUnit.CustomerServicesTest.create_Is_New_Customer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fac851d5-c743-4d64-960d-5c0c60c0892c" name="Changes" comment="" />
