@@ -6,17 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fac851d5-c743-4d64-960d-5c0c60c0892c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema_data/Produtos/PIPOCA_Preco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cinema_data/Produtos/PIPOCA_Preco.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema_data/Produtos/SALGADINHO_Preco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cinema_data/Produtos/SALGADINHO_Preco.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema_data/salas/sala_01/Filme_Sala01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cinema_data/salas/sala_01/Filme_Sala01.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema_data/salas/sala_02/Filme_Sala02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cinema_data/salas/sala_02/Filme_Sala02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/file/AdminPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/file/AdminPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/model/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/model/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/service/AdminServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/service/AdminServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/test/teste01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/test/teste01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/thread/EmployeeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/thread/EmployeeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cinema/service/AdminServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cinema/service/AdminServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

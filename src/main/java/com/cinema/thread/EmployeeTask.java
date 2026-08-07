@@ -46,8 +46,7 @@ public class EmployeeTask implements Runnable{
     private void executeAdminTask() throws IOException, InterruptedException {
         while (true) {
             System.out.println("Type your password:");
-            String password = SCANNER.nextLine();
-            boolean validPassword = AdminServices.validationAdmin(password);
+            boolean validPassword = AdminServices.validationAdmin(SCANNER.nextLine());
             if (!validPassword){
                 System.out.println("Type one number:");
                 System.out.println("(1) - TRY AGAIN");
