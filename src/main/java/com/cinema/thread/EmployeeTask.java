@@ -2,11 +2,17 @@ package com.cinema.thread;
 
 
 import com.cinema.file.AdminPath;
+import com.cinema.file.CustomerPath;
+import com.cinema.model.Customer;
+import com.cinema.model.CustomerDTO;
 import com.cinema.model.Food;
 import com.cinema.model.FoodEnum;
 import com.cinema.service.AdminServices;
+import com.cinema.service.CustomerServices;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class EmployeeTask implements Runnable{
@@ -21,7 +27,14 @@ public class EmployeeTask implements Runnable{
             System.out.println("(0) - EXIT");
             int i = Integer.parseInt(SCANNER.nextLine());
             switch (i) {
-                case 1 -> executeCustomerTask();
+                case 1 -> {
+                    try {
+                        executeCustomerTask();
+
+                    } catch (InterruptedException | IOException e) {
+                        e.printStackTrace();
+                    }
+                }
                 case 2 -> {
                     try {
                         executeAdminTask();
@@ -39,8 +52,64 @@ public class EmployeeTask implements Runnable{
         }
     }
 
-    private  void executeCustomerTask() {
+    private  void executeCustomerTask() throws InterruptedException, IOException {
+        Customer customerr;
+        int movie = 0;
+        List<Integer> listProduct = new ArrayList(List.of());
 
+        while (true) {
+            System.out.println("Type your name:");
+            String customerName = SCANNER.nextLine();
+
+            System.out.println("\nEnter  your age:");
+            int customerInt = Integer.parseInt(SCANNER.nextLine());
+
+            System.out.println("\nEnter the cash you have on hands:");
+            double customerPrice = Double.parseDouble(SCANNER.nextLine());
+
+            Customer customer = CustomerServices.createCustomer(customerName, customerInt, customerPrice);
+            customerr = customer;
+            if (customer == null) {
+                System.out.println("Fill in all the information!!!");
+                Thread.sleep(2000);
+                return;
+            } else {
+                break;
+            }
+        }
+
+        boolean inCustomerMenu = true;
+        while (inCustomerMenu) {
+            System.out.println("Type what you want to buy first:\n");
+            System.out.println("(1) - MOVIE");
+            System.out.println("(2) - FOODS");
+            System.out.println("(3) - MAKE THE PAYMENT");
+            System.out.println("(0) - BACK");
+            int numberForMenu = Integer.parseInt(SCANNER.nextLine());
+
+
+            CustomerServices.checkThePriceOrNameforScreenPrinting(numberForMenu);
+            if (numberForMenu == 1) {
+                int selectMovie = Integer.parseInt(SCANNER.nextLine());
+                movie = selectMovie;
+
+            } else if (numberForMenu == 2) {
+                int selectProduct = Integer.parseInt(SCANNER.nextLine());
+                listProduct.add(selectProduct);
+
+
+            } else if (numberForMenu == 3) {
+                System.out.println(customerr);
+                System.out.println(movie);
+                System.out.println(listProduct);
+                CustomerDTO customerDTO = CustomerServices.validationIfCash(customerr, movie, listProduct);
+                CustomerPath.toTakeGoToFile(customerDTO);
+
+            } else {
+                inCustomerMenu = false;
+            }
+
+        }
     }
 
     private void executeAdminTask() throws IOException, InterruptedException {

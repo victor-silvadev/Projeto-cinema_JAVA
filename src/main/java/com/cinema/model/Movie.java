@@ -10,6 +10,6 @@ public record Movie(String tittle, double price) {
         DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.US);
         DecimalFormat df = new DecimalFormat("0.00", symbols);
 
-        return "TITLE: " + this.tittle + " ; PRICE: " + df.format(this.price);
+        return "| MOVIE: " + this.tittle + " ; | PRICE: " + df.format(this.price);
     }
 }

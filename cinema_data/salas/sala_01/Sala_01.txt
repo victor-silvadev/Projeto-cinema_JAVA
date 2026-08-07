@@ -1,1 +1,1 @@
-
+CustomerDTO(customer=Victor, movie= Homem Aranha, amountSpent=45.989999999999995, salaEnum=SALA01)

@@ -13,9 +13,9 @@ import java.util.List;
 public class CustomerPath {
 
     public static void toTakeGoToFile(CustomerDTO customerDTO) throws IOException {
-        Path sala01 = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\salas\\sala_01\\Filme_Sala01.txt");
-        Path sala02 = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\salas\\sala_02\\Filme_Sala02.txt");
-        Path sala03 = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\salas\\sala_03\\Filme_Sala03.txt");
+        Path sala01 = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\salas\\sala_01\\Sala_01.txt");
+        Path sala02 = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\salas\\sala_02\\Sala_02.txt");
+        Path sala03 = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\salas\\sala_03\\Sala_03.txt");
 
         switch (customerDTO.getSalaEnum()){
             case SALA01 -> Files.write(sala01, List.of(customerDTO.toString()), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
