@@ -6,15 +6,18 @@ import com.cinema.model.Admin;
 
 public class AdminServices {
 
-    public static boolean  validationAdmin(Admin admin,String password){
-        if (password.isBlank()){
-            throw new AdministratorPasswordIsIncorrectException("The password is null");
+    public static boolean  validationAdmin(String password){
 
-        } else if (!password.equals(admin.getPassword())){
-            throw new AdministratorPasswordIsIncorrectException("The password is incorret");
+        if (password.isBlank()){
+            System.out.println("The password is null");
+            return false;
+
+        } else if (!password.equals(Admin.DEFAULT_ADMIN.getPASSWORD())){
+            System.out.println("The password is incorrect");
+            return false;
 
         } else {
-            System.out.println("Acesso liberado!");
+            System.out.println("Access granted!");
             return true;
         }
 

@@ -6,12 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="fac851d5-c743-4d64-960d-5c0c60c0892c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/exception/a.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/file/a.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/model/a.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/service/a.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/thread/a.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema_data/Produtos/PIPOCA_Preco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cinema_data/Produtos/PIPOCA_Preco.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema_data/Produtos/SALGADINHO_Preco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cinema_data/Produtos/SALGADINHO_Preco.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema_data/salas/sala_01/Filme_Sala01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cinema_data/salas/sala_01/Filme_Sala01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema_data/salas/sala_02/Filme_Sala02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cinema_data/salas/sala_02/Filme_Sala02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/file/AdminPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/file/AdminPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/service/AdminServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/service/AdminServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/test/teste01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/test/teste01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/thread/EmployeeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/thread/EmployeeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cinema/service/AdminServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cinema/service/AdminServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,29 +64,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.com.cinema.test.teste01.executor": "Run",
-    "Application.teste01.executor": "Run",
-    "JUnit.AdminServicesTest.executor": "Run",
-    "JUnit.AdminServicesTest.validation_about_password_from_Admin_is_Correct.executor": "Run",
-    "JUnit.AdminServicesTest.validation_about_password_from_input_is_Null.executor": "Run",
-    "JUnit.CustomerPathTest.create_customerDTO_In_Path_Select.executor": "Run",
-    "JUnit.CustomerServicesTest.create_Dont_Validation_for_Input_is_Null.executor": "Run",
-    "JUnit.CustomerServicesTest.create_Is_New_Customer.executor": "Run",
-    "JUnit.CustomerServicesTest.executor": "Run",
-    "JUnit.CustomerServicesTest.verification_about_cash_Ofthe_Customer_With_the_Full_Payment_amount.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/conta/Documents/estudos/JAVA/Projeto-Cinema_JAVA/cinema_data/salas/sala_03",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.com.cinema.test.teste01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.teste01.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminServicesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminServicesTest.validation_about_password_from_Admin_is_Correct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminServicesTest.validation_about_password_from_input_is_Null.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerPathTest.create_customerDTO_In_Path_Select.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerServicesTest.create_Dont_Validation_for_Input_is_Null.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerServicesTest.create_Is_New_Customer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerServicesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerServicesTest.verification_about_cash_Ofthe_Customer_With_the_Full_Payment_amount.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conta/Documents/estudos/JAVA/Projeto-Cinema_JAVA/cinema_data/salas/sala_03&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\conta\Documents\estudos\JAVA\Projeto-Cinema_JAVA\cinema_data\salas\sala_03" />
@@ -98,7 +103,20 @@
       <recent name="com.cinema.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerPathTest.create_customerDTO_In_Path_Select">
+  <component name="RunManager" selected="Application.teste01">
+    <configuration name="teste01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cinema.test.teste01" />
+      <module name="Projeto-Cinema_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cinema.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerPathTest.create_customerDTO_In_Path_Select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Projeto-Cinema_JAVA" />
       <extension name="coverage">
@@ -146,22 +164,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerServicesTest.create_Is_New_Customer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Projeto-Cinema_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cinema.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cinema.service" />
-      <option name="MAIN_CLASS_NAME" value="com.cinema.service.CustomerServicesTest" />
-      <option name="METHOD_NAME" value="create_Is_New_Customer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CustomerServicesTest.verification_about_cash_Ofthe_Customer_With_the_Full_Payment_amount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Projeto-Cinema_JAVA" />
       <extension name="coverage">
@@ -180,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.teste01" />
         <item itemvalue="JUnit.CustomerPathTest.create_customerDTO_In_Path_Select" />
         <item itemvalue="JUnit.CustomerServicesTest.verification_about_cash_Ofthe_Customer_With_the_Full_Payment_amount" />
         <item itemvalue="JUnit.CustomerServicesTest.create_Dont_Validation_for_Input_is_Null" />
         <item itemvalue="JUnit.CustomerServicesTest" />
-        <item itemvalue="JUnit.CustomerServicesTest.create_Is_New_Customer" />
       </list>
     </recent_temporary>
   </component>

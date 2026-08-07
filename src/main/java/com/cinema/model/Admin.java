@@ -1,13 +1,18 @@
 package com.cinema.model;
 
 
-import lombok.Builder;
 import lombok.Data;
 
 
-@Builder
 @Data
 public class Admin {
-    String name = "Admin";
-    String password = "22087612Vt";
+    String NAME;
+    String PASSWORD;
+
+    public static final Admin DEFAULT_ADMIN = new Admin("Admin","2208");
+
+    public Admin(String admin, String number) {
+    }
+
 }
+

@@ -1,1 +1,1 @@
-CustomerDTO(customer=victor, movie=Atlas, amountSpent=287.0, salaEnum=SALA01)
+TITLE: Surdo ; PRICE: 21.90
