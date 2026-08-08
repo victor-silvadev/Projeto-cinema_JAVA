@@ -18,9 +18,9 @@ public class CustomerPath {
         Path sala03 = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\salas\\sala_03\\Sala_03.txt");
 
         switch (customerDTO.getSalaEnum()){
-            case SALA01 -> Files.write(sala01, List.of(customerDTO.toString()), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
-            case SALA02 -> Files.write(sala02, List.of(customerDTO.toString()), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
-            case SALA03 -> Files.write(sala03, List.of(customerDTO.toString()), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+            case SALA01 -> Files.write(sala01, List.of(customerDTO.toFileString()), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+            case SALA02 -> Files.write(sala02, List.of(customerDTO.toFileString()), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+            case SALA03 -> Files.write(sala03, List.of(customerDTO.toFileString()), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
             default -> throw new InexistingPathException("This path don't existing");
         }
     }

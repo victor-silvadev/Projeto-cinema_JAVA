@@ -25,6 +25,7 @@ public class CustomerServices {
                 .build();
     }
 
+    // pega os nomes e preços de ambos para printar na tela
     public static void checkThePriceOrNameforScreenPrinting(int number) throws IOException {
         Path bebidas = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\Produtos\\BEBIDAS_Preco.txt");
         Path pipoca = Paths.get("C:\\Users\\conta\\Documents\\estudos\\JAVA\\Projeto-Cinema_JAVA\\cinema_data\\Produtos\\PIPOCA_Preco.txt");
@@ -54,10 +55,11 @@ public class CustomerServices {
                 }
 
                 System.out.println("(0) - BACK");
+                System.out.println("=========================");
             }
 
 
-            case 2 -> {System.out.println("=== PRODUCTS FOR SALE ===");
+            case 2 -> {System.out.println("\n=== PRODUCTS FOR SALE ===");
 
                 List<String> lines01 = Files.readAllLines(bebidas);
                 for (String line : lines01) {
@@ -74,6 +76,7 @@ public class CustomerServices {
                     System.out.println("(3) - SALGADINHOS | PRICE: R$" + line);
                 }
                 System.out.println("(0) - BACK");
+                System.out.println("========================\n");
 
             }
         }
@@ -112,16 +115,14 @@ public class CustomerServices {
                             valueMovie += priceDouble;
                             nameMovie = tittle;
                             salaEnum = SalaEnum.SALA01;
-
                         }
-
                     }
                 }
 
                 case 2 -> {
                     List<String> lines = Files.readAllLines(sala02);
                     for (String line : lines) {
-                        String[] partAboutLines = line.split(",");
+                        String[] partAboutLines = line.split(";");
                         if (partAboutLines.length >= 2) {
                             String tittle = partAboutLines[0].trim().replace("| MOVIE:","");
 
@@ -131,14 +132,13 @@ public class CustomerServices {
                             nameMovie = tittle;
                             salaEnum = SalaEnum.SALA02;
                         }
-
                     }
                 }
 
                 case 3 -> {
                     List<String> lines = Files.readAllLines(sala03);
                     for (String line : lines) {
-                        String[] partAboutLines = line.split(",");
+                        String[] partAboutLines = line.split(";");
                         if (partAboutLines.length >= 2) {
                             String tittle = partAboutLines[0].trim().replace("| MOVIE:","");
 
@@ -152,11 +152,7 @@ public class CustomerServices {
                     }
                 }
 
-                default -> {
-                    nameMovie = null;
-                    valueProducts = 0;
-                    salaEnum = null;
-                }
+                default -> System.out.println("Select one movie/room!");
             }
 
 

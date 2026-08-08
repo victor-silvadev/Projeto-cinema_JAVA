@@ -58,7 +58,7 @@ public class EmployeeTask implements Runnable{
         List<Integer> listProduct = new ArrayList(List.of());
 
         while (true) {
-            System.out.println("Type your name:");
+            System.out.println("\nType your name:");
             String customerName = SCANNER.nextLine();
 
             System.out.println("\nEnter  your age:");
@@ -80,7 +80,7 @@ public class EmployeeTask implements Runnable{
 
         boolean inCustomerMenu = true;
         while (inCustomerMenu) {
-            System.out.println("Type what you want to buy first:\n");
+            System.out.println("\nType what you want to buy first:\n");
             System.out.println("(1) - MOVIE");
             System.out.println("(2) - FOODS");
             System.out.println("(3) - MAKE THE PAYMENT");
@@ -90,8 +90,7 @@ public class EmployeeTask implements Runnable{
 
             CustomerServices.checkThePriceOrNameforScreenPrinting(numberForMenu);
             if (numberForMenu == 1) {
-                int selectMovie = Integer.parseInt(SCANNER.nextLine());
-                movie = selectMovie;
+                movie = Integer.parseInt(SCANNER.nextLine());
 
             } else if (numberForMenu == 2) {
                 int selectProduct = Integer.parseInt(SCANNER.nextLine());
@@ -99,11 +98,17 @@ public class EmployeeTask implements Runnable{
 
 
             } else if (numberForMenu == 3) {
-                System.out.println(customerr);
-                System.out.println(movie);
-                System.out.println(listProduct);
+                System.out.println("Directing the client to the room");
                 CustomerDTO customerDTO = CustomerServices.validationIfCash(customerr, movie, listProduct);
                 CustomerPath.toTakeGoToFile(customerDTO);
+                Thread.sleep(2000);
+                System.out.printf(".");
+                Thread.sleep(2000);
+                System.out.printf(".");
+                Thread.sleep(2000);
+                System.out.printf(".\n");
+                Thread.sleep(2000);
+                System.out.println("Client directed to the selected room.\n\n");
 
             } else {
                 inCustomerMenu = false;
@@ -116,8 +121,15 @@ public class EmployeeTask implements Runnable{
         while (true) {
             System.out.println("Type your password:");
             boolean validPassword = AdminServices.validationAdmin(SCANNER.nextLine());
+            System.out.println("Checking the password");
+            Thread.sleep(2000);
+            System.out.printf(".");
+            Thread.sleep(2000);
+            System.out.printf(".");
+            Thread.sleep(2000);
+            System.out.printf(".\n");
             if (!validPassword){
-                System.out.println("Type one number:");
+                System.out.println("Password is incorrect!!!, Type one number:");
                 System.out.println("(1) - TRY AGAIN");
                 System.out.println("(2) - BACK");
                 int decidion = Integer.parseInt(SCANNER.nextLine());
@@ -151,7 +163,11 @@ public class EmployeeTask implements Runnable{
                     int movieTheaterInt = Integer.parseInt(SCANNER.nextLine());
 
                     AdminPath.createMoviesPath(movieName,ticketPriceDouble,movieTheaterInt);
-                    System.out.println("Creating the movie...");
+                    System.out.println("Creating the movie");
+                    Thread.sleep(2000);
+                    System.out.printf(".");
+                    Thread.sleep(2000);
+                    System.out.printf(".\n");
                     Thread.sleep(2000);
                     System.out.println("Movie created!");
                 }
@@ -171,9 +187,12 @@ public class EmployeeTask implements Runnable{
                             double priceProductDouble = Double.parseDouble(SCANNER.nextLine());
                             Food food = new Food(FoodEnum.SALGADINHO,priceProductDouble);
                             AdminPath.createProductsPath(food);
-                            System.out.println("\nCreating SALGADINHO...");
+                            System.out.println("\nCreating SALGADINHO.");
                             Thread.sleep(2000);
-                            System.out.println("\nSALGADINHO created!");
+                            System.out.printf(".");
+                            Thread.sleep(2000);
+                            System.out.printf(".\n");
+                            System.out.println("SALGADINHO created!");
                         }
                         case 2 -> {
                             System.out.println("\nBEBIDAS selected, enter the price of the BEBIDAS:");
@@ -181,9 +200,12 @@ public class EmployeeTask implements Runnable{
                             double priceProductDouble = Double.parseDouble(SCANNER.nextLine());
                             Food food = new Food(FoodEnum.BEBIDAS,priceProductDouble);
                             AdminPath.createProductsPath(food);
-                            System.out.println("\nCreating BEBIDAS...");
+                            System.out.println("\nCreating BEBIDAS.");
                             Thread.sleep(2000);
-                            System.out.println("\nBEBIDAS created!");
+                            System.out.printf(".");
+                            Thread.sleep(2000);
+                            System.out.printf(".\n");
+                            System.out.println("BEBIDAS created!");
                         }
                         case 3 -> {
                             System.out.println("\nPIPOCA selected, enter the price of the PIPOCA:");
@@ -191,9 +213,12 @@ public class EmployeeTask implements Runnable{
                             double priceProductDouble = Double.parseDouble(SCANNER.nextLine());
                             Food food = new Food(FoodEnum.PIPOCA,priceProductDouble);
                             AdminPath.createProductsPath(food);
-                            System.out.println("\nCreating PIPOCA...");
+                            System.out.println("\nCreating PIPOCA.");
                             Thread.sleep(2000);
-                            System.out.println("\nPIPOCA created!");
+                            System.out.printf(".");
+                            Thread.sleep(2000);
+                            System.out.printf(".\n");
+                            System.out.println("PIPOCA created!");
                         }
                         case 0 -> {
                             return;
